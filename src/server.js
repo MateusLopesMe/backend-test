@@ -1,9 +1,12 @@
-const express = require("express");
+const express = require('express');
 const app = express();
-const PORT = 3000;
-app.get("/", (req, res) => {
-  res.send("Hello from CommonJS Express!");
+
+app.get('/', (req, res) => {
+  res.json({ message: 'Hello from Express on Vercel!' });
 });
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+
+app.listen(3000, () => {
+    console.log(`Server running on http://localhost:3000`);
 });
+
+module.exports = app;
