@@ -44,6 +44,4 @@ app.put('/api/users/:id', (_req, res) => {
   })
 })
 
-mongoose.connect('mongodb+srv://mateusarlopes_db_user:VYjvGKDJsvkoShjC@cluster0.9hwt2q3.mongodb.net/users')
-
 export default app
