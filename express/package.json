@@ -2,11 +2,13 @@
   "name": "express",
   "type": "module",
   "dependencies": {
-    "express": "5.1.0"
+    "body-parser": "^2.2.2",
+    "express": "5.1.0",
+    "mongoose": "^9.6.1"
   },
   "devDependencies": {
-    "@types/node": "20.11.17",
     "@types/express": "5.0.0",
+    "@types/node": "20.11.17",
     "typescript": "5.8.3"
   }
 }
